@@ -1,0 +1,6 @@
+[[bundles]]
+  name = "basic.css"
+  assets = ["test_basic.scss"]
+  
+[options.sass]
+  rootDir = "src/test/resources"
