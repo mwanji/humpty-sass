@@ -22,4 +22,13 @@ public class SassSourceProcessorTest {
     
     assertEquals(expected, result);
   }
+  
+  @Test
+  public void should_import() throws Exception {
+    Pipeline pipeline = new HumptyBootstrap().createPipeline();
+    
+    String result = pipeline.process("import.css");
+    
+    System.out.println(result);
+  }
 }
