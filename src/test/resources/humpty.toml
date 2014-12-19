@@ -1,6 +1,10 @@
-[[bundles]]
+[[bundle]]
   name = "basic.css"
   assets = ["test_basic.scss"]
+  
+[[bundle]]
+  name = "import.css"
+  assets = ["import_css_directive.scss"]
   
 [options.sass]
   rootDir = "src/test/resources"
